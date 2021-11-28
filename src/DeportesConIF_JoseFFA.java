@@ -6,7 +6,7 @@ deporte apropiado para practicar según los siguientes datos
 (no se puede utilizar switch case):
  */
 
-package prog04_tarea;
+
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
