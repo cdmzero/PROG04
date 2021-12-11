@@ -24,34 +24,20 @@ public class DeportesConSwitchCase_JoseFFA {
         
         switch(temp){
 
-            case 16,17,18,19,20,21,22,23,24,25,26,27,28,29,30:
+            case 16,17,18,19,20,21,22,23,24,25,26,27,28,29,30 -> System.out.println("Golf");
             
-            System.out.println("Golf");
-            
-            break;
-            
-            case 6,7,8,9,10,11,12,13,14,15:
-            
-            System.out.println("Tenis");
-            
-            break;
+            case 6,7,8,9,10,11,12,13,14,15 -> System.out.println("Tenis");
                     
-            case -4,-3,-2,-1,1,2,3,4,5:
-            
-            System.out.println("Tenis");
-            
-            break;
+            case -4,-3,-2,-1,1,2,3,4,5 -> System.out.println("Tenis");
 
-            case -5,-6,-7,-8,-9,-10:
-            System.out.println("Esqui");
+            case -5,-6,-7,-8,-9,-10 -> System.out.println("Esqui");
             
-            break;
-            
-            default: 
+            default -> { 
                 if(temp > 30 ){
-                       System.out.println("Natacion");
+                    System.out.println("Natacion");
                 }else{
-                 System.out.println("Damas");
+                    System.out.println("Damas");
+                }
                 }
         }
         
