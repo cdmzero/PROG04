@@ -125,7 +125,7 @@ public class Ecuacion_JoseFFA {
             System.out.println("Resolucion negativa: "+x2);
             
         }catch(ExcepcionDiscriminanteNegativo err){
-            System.out.println(err.getMessage());
+            System.err.println(err.getMessage());
         }
     }
 }

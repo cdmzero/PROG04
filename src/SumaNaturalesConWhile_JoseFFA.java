@@ -27,9 +27,8 @@ public class SumaNaturalesConWhile_JoseFFA {
                    i++;
                 
             }
-            
-            
-        
+           
+              
         }catch(InputMismatchException err){
         
             System.out.println("Tipo de dato invalido");

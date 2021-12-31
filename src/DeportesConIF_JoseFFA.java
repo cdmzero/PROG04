@@ -50,7 +50,7 @@ public class DeportesConIF_JoseFFA {
        
                          
             } catch(InputMismatchException err){
-             System.out.println("Tipo de dato invalido introducido");
+             System.err.println("Tipo de dato invalido introducido");
             }
     }
         
@@ -58,4 +58,4 @@ public class DeportesConIF_JoseFFA {
     }
    
     
-}
+

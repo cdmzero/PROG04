@@ -17,6 +17,8 @@ public class DeportesConSwitchCase_JoseFFA {
     public static void main(String[] args){
     
         try{
+            
+        System.out.println("opcion");
          
         Scanner sc  = new Scanner( System.in);
         
@@ -43,7 +45,7 @@ public class DeportesConSwitchCase_JoseFFA {
         
         }catch(InputMismatchException err) {
             
-           System.out.println("Tipo de dato invalido introducido");
+           System.err.println("Tipo de dato invalido introducido");
 
     
         }
